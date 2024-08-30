@@ -1,0 +1,160 @@
+/* Navigation Bar */
+nav {
+    height: 100;
+    background-color: #fafafa;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li a {
+    display: block;
+    color: rgb(23, 19, 19);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    background-color: #f9c330;
+    border-radius: 4px;
+}
+
+/* Responsiveness for smaller screens */
+@media screen and (max-width: 800px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+/* Main section of the Page*/
+
+.Main1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+section section p{
+    margin:0px;
+}
+
+mark{
+    background-color: #ffdc7c;
+}
+
+ .BGDiv{
+    display:inline-block;
+    background-color: #ffe18e;
+    height:1px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+}
+
+    .Divin{
+        margin-right: -100px; 
+        padding-left: 20px;
+        padding-right: 10px;
+        background-color:rgb(136, 64, 5);
+    }
+
+.BioText{
+    font-size: 18px;
+    color: #333;
+    background-color:rgb(251, 248, 244);
+    padding: 18px;
+    border-left: 4px solid #ffda45;
+    box-shadow: 2px 2px 8px rgba(255, 210, 9, 0.1);
+    border-radius: 5px;
+}
+
+.button1{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #face1c; /* Green */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    
+}
+
+/* Form Modification */
+.Clemmzzy{
+    height: 600px;
+    Width: 410px;
+    border: 4px solid #ffda45;
+    margin:20px 50px 20px 0px;
+}
+
+.AltImage{
+    float:left;
+    width:700px;
+}
+
+.form2{
+    display: flex;
+    flex-direction: column;
+    align-items: Left;
+    padding: 20px;
+}
+
+.Submitbutton{
+    background-color: #553bfc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.SignIn{
+    text-align: right;
+}
+
+.SignIn2{
+    color: #553bfc;
+}
+
+
+/* Table Modification*/
+
+table Caption{
+    font-size:25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+th {
+    font-size:20px;
+    background-color: #f9af02;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    border: 2px solid #000000;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #cccbcb;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
